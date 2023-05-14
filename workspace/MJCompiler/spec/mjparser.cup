@@ -1,0 +1,404 @@
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+import rs.etf.pp1.symboltable.*;
+import rs.etf.pp1.symboltable.concepts.*;
+
+parser code {:
+
+	Logger log = Logger.getLogger(getClass());
+	
+	boolean errorDetected;
+	
+	// slede redefinisane metode za prijavu gresaka radi izmene teksta poruke:
+	
+	public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+		done_parsing();
+		report_error(message, info);
+	}
+	
+	public void syntax_error(Symbol cur_token) {
+		report_error("\nSyntax error", cur_token);
+	}
+	
+	public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+		report_fatal_error("Fatal error, parsing cannot resume", cur_token);
+	}
+	
+	public void report_error(String message, Object info) {
+		errorDetected = true;
+		StringBuilder msg = new StringBuilder(message);
+		if (info instanceof Symbol)
+			msg.append(" in line ").append(((Symbol)info).left);
+		log.error(msg.toString());
+	}
+
+:}
+
+init with {:
+
+	errorDetected = false;
+:}
+
+scan with {:
+
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null)
+		log.info(s.toString() + " " + s.value.toString());
+	return s; 
+
+:}
+
+
+terminal PROG, LBRACEBRACKET, RBRACEBRACKET, CONST, SEMICOLON, COMMA, ASSIGN, CLASS, EXTENDS, LROUNDBRACKET, RROUNDBRACKET;
+terminal VOID, LSQUAREBRACKET, RSQUAREBRACKET, IF, ELSE, WHILE, BREAK, CONTINUE, RETURN, READ, PRINT, COLON, ARROWFUNCTION;
+terminal INCREMENT, DECREMENT, OR, AND, DOT, NEW, MINUS, PLUS, MUL, DIV, MOD, EQ, NEQ, GT, GEQ, LT, LEQ, ENUM, THIS, FOREACH, DO;
+
+terminal String IDENT;
+terminal Integer NUMCONST;
+terminal String BOOLCONST;
+terminal Character CHARCONST;
+
+nonterminal ProgDeclList, ProgDecl, ConstDeclList, ConstDeclaration, ConstDecl, Unmatched, Matched;
+nonterminal GlobalVarDeclList, GlobalVarDeclaration, GlobalVarDecl, GlobalVarDeclComma, GlobalVarDeclSemi;
+nonterminal VarDeclList, VarDeclaration, VarDecl, ClassExtendDecl, ClassVarDeclList, ClassBodyDecl, ClassMethodDecl;
+nonterminal MethodDeclList, FormPars, FormParsList, FormParDecl, MethodVarDeclList;
+nonterminal StatementList, Statement, RExpr, DesignatorStatement, Operation;
+nonterminal ActParsListN, ActParsList, ActPars, LBracket, RBracket, DesignatorList, DesignatorLS, DesignatorLST;
+nonterminal ActParsListNB, Label, Assignop, Relop, Addop, Mulop, LBracketD1, RBracketD1, LBracketD2, RBracketD2;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName, Program, ClassDeclList, ClassName, MethodDecl, MethodReturnType, DesignatorName, Designator, DesignatorN, DesignatorNL;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr, Numbers, Factor, ExprOrActPars, Term, MulopFactorList, AddopTermList, CondFact, CondTerm, CondTermList, Condition;
+
+Program ::= (Program) PROG ProgName:p ProgDeclList LBRACEBRACKET MethodDeclList RBRACEBRACKET;
+
+ProgName ::= (ProgName) IDENT:progName;
+
+ProgDeclList ::= (ProgDeclarations) ProgDeclList ProgDecl
+			|
+			(NoProgDeclarations) /* epsilon */
+			;
+
+ProgDecl ::= (ProgConstList) ConstDeclList
+			|
+			(ProgVarList) GlobalVarDeclList
+			|
+			(ProgClassList) ClassDeclList
+			;
+
+ConstDeclList ::= (ConstDeclarations) CONST Type:constType ConstDeclaration SEMICOLON;
+
+ConstDeclaration ::= (MultipleConstDeclarations) ConstDeclaration COMMA ConstDecl
+			|
+			(SingleConstDeclaration) ConstDecl
+			;
+			
+ConstDecl ::= (ConstNumber) IDENT:numbers ASSIGN NUMCONST:num
+			|
+			(ConstBool) IDENT:booleans ASSIGN BOOLCONST:bool
+			|
+			(ConstChar) IDENT:characters ASSIGN CHARCONST:c
+			;
+
+GlobalVarDeclList ::= (GlobalVarDeclarations) Type:varType GlobalVarDeclaration;
+
+GlobalVarDeclaration ::= (MultipleGlobalVarDeclarations) GlobalVarDeclComma GlobalVarDeclaration
+			|
+			(SingleGlobalVarDeclaration) GlobalVarDeclSemi
+			;
+
+GlobalVarDeclComma ::= (GlobalVarComma) GlobalVarDecl COMMA
+			|
+			(GlobalVarDeclarationError1) error:s COMMA
+			{: parser.report_error("Recovered from error when defining a global variable up to the , in line "+ sleft, null); :}
+			;
+			
+GlobalVarDeclSemi ::= (GlobalVarSemi) GlobalVarDecl SEMICOLON
+			|
+			(GlobalVarDeclarationError2) error:i SEMICOLON
+			{: parser.report_error("Recovered from error when defining a global variable up to the ; in line "+ ileft, null); :}
+			;
+
+GlobalVarDecl ::= (NoArrayGlobalVarDeclarations) IDENT:varName
+			|
+			(ArrayGlobalVarDeclarations) IDENT:varName LSQUAREBRACKET RSQUAREBRACKET
+			;
+
+VarDeclList ::= (VarDeclarations) Type:varType VarDeclaration SEMICOLON;
+
+VarDeclaration ::= (MultipleVarDeclarations) VarDeclaration COMMA VarDecl 
+			|
+			(SingleVarDeclaration) VarDecl
+			;
+
+VarDecl ::= (NoArrayVarDeclarations) IDENT:varName
+			|
+			(ArrayVarDeclarations) IDENT:varName LSQUAREBRACKET RSQUAREBRACKET
+			;
+			
+ClassDeclList ::= (ClassDeclarations) CLASS ClassName:c ClassExtendDecl LBRACEBRACKET ClassVarDeclList ClassBodyDecl RBRACEBRACKET;
+
+ClassName ::= (ClassName) IDENT:classN;
+
+ClassExtendDecl ::= (ClassExtend) EXTENDS Type:extendType
+			|
+			(NoClassExtend) /* epsilon */
+			;
+
+ClassVarDeclList ::= (ClassVarDeclarations) ClassVarDeclList VarDeclList
+			|
+			(NoClassVarDeclarations) /* epsilon */
+			;
+
+ClassBodyDecl ::= (ClassBodyDeclarations) ClassMethodDecl
+			|
+			(NoClassBody) /* epsilon */
+			;
+
+ClassMethodDecl ::= (ClassMethods) LBRACEBRACKET MethodDeclList RBRACEBRACKET;
+
+MethodDeclList ::= (MultipleMethodDeclarations) MethodDeclList MethodDecl
+			|
+			(NoneMethodDeclarations) /* epsilon */
+			;
+			
+MethodDecl ::= (MethodDecls) MethodReturnType LROUNDBRACKET FormPars RROUNDBRACKET MethodVarDeclList LBRACEBRACKET StatementList RBRACEBRACKET;
+
+MethodReturnType ::= (ReturnType) Type:methodType IDENT:methodName
+			|
+			(ReturnVoid) VOID IDENT:methodName
+			;
+
+FormPars ::= (ParamsDeclarations) FormParsList
+			|
+			(NoParamsDeclarations) /* epsilon */
+			;
+
+FormParsList ::= (MultipleParamsDeclarations) FormParsList COMMA FormParDecl
+			|
+			(SingleParamsDeclaration) FormParDecl
+			;
+			
+FormParDecl ::= (FormalParam) Type:paramType IDENT:paramName
+			|
+			(FormalParamArray) Type:paramType IDENT:paramName LSQUAREBRACKET RSQUAREBRACKET
+			;
+			
+MethodVarDeclList ::= (MethodVarDeclarations) MethodVarDeclList VarDeclList
+			|
+			(NoMethodVarDeclarations) /* epsilon */
+			;
+
+Type ::= (Type) IDENT:typeName;
+
+StatementList ::= (Statements) StatementList Statement
+			|
+			(NoStmt) /* epsilon */
+			;
+
+Statement ::= (MatchedStatement) Matched
+			|
+			(UnmatchedStatement) Unmatched
+			|
+			(WhileStatement) WHILE LROUNDBRACKET Condition RROUNDBRACKET Statement
+			;
+
+Unmatched ::= (UnmatchedIfStatement) IF LROUNDBRACKET Condition RROUNDBRACKET Statement
+			|
+			(UnmatchedIfElseStatement) IF LROUNDBRACKET Condition RROUNDBRACKET Matched ELSE Unmatched
+			;
+				
+Matched ::= (DesignatorStatements) DesignatorStatement
+			|
+			(MatchedIfElseStatement) IF LROUNDBRACKET Condition RROUNDBRACKET Matched ELSE Matched
+			|
+			(BreakStatement) BREAK SEMICOLON
+			|
+			(ContinueStatement) CONTINUE SEMICOLON
+			|
+			(ReturnStatement) RETURN RExpr:r SEMICOLON
+			|
+			(ReadStatement) READ LROUNDBRACKET Designator RROUNDBRACKET SEMICOLON
+			|
+			(PrintStatement) PRINT LROUNDBRACKET Expr:e Numbers:n RROUNDBRACKET SEMICOLON
+			|
+			(MultipleStatements) LBRACEBRACKET StatementList RBRACEBRACKET
+			;
+			
+RExpr ::= (ReturnsExpr) Expr
+			|
+			(ReturnsVoid) /* epsilon */
+			;
+			
+Numbers ::= (MoreNumbers) Numbers COMMA NUMCONST:n
+			|
+			(NoNumbers) /* epsilon */
+			;
+
+DesignatorStatement ::= (DesignatorOperation) Operation SEMICOLON
+			|
+			(DesignatorArray) LBracketD1 DesignatorList:d1 RBracketD1 ASSIGN DesignatorLS SEMICOLON
+			|
+			(DesignatorError) error:l 
+			{: parser.report_error("Recovered from error when constructing an assignment statement up to the ; "+ lleft, null); :}
+			;
+			
+LBracketD1 ::= (LBracketD1) LSQUAREBRACKET;
+
+RBracketD1 ::= (RBracketD1) RSQUAREBRACKET;
+			
+LBracketD2 ::= (LBracketD2) LSQUAREBRACKET;
+
+RBracketD2 ::= (RBracketD2) RSQUAREBRACKET;
+			
+DesignatorLS ::= (BracketsDesignators) LBracketD2 DesignatorLST RBracketD2
+			|
+			(ArrayDesignator) DesignatorName
+			;
+
+DesignatorLST ::= (MultipleDesignatorsLST) DesignatorNL COMMA DesignatorLST
+			|
+			(SingleDesignatorsLST) DesignatorNL
+			;
+			
+DesignatorNL ::= (DesignatorNL) Designator;
+
+DesignatorList ::= (MultipleDesignators) DesignatorList COMMA DesignatorN
+			|
+			(SingleDesignatorN) DesignatorN
+			;
+
+DesignatorN ::= (SingleDesignators) Designator
+			|
+			(NoDesignators) /* epsilon */
+			;
+
+Operation ::= (DesignatorAssign) Designator Assignop Expr:exp
+			|
+			(DesignatorError3) error:l
+			{: parser.report_error("Recovered from error when constructing an assignment statement up to the ; "+ lleft, null); :}
+			|
+			(DesignatorActPars) Designator LBracket ActParsListN RBracket
+			|
+			(DesignatorInc) Designator INCREMENT
+			|
+			(DesignatorDec) Designator DECREMENT
+			;
+
+LBracket ::= (LBracket) LROUNDBRACKET;
+
+RBracket ::= (RBracket) RROUNDBRACKET;
+			
+ActParsListN ::= (SomeActPars) ActParsList
+			|
+			(NoActPars) /* epsilon */
+			;
+
+ActParsList ::= (MultipleActPars) ActParsList COMMA ActPars
+			|
+			(SingleActPars) ActPars
+			;
+
+ActPars ::= (ActPars) Expr;
+
+Condition ::= (Condition) CondTermList;
+
+CondTermList ::= (MultipleConditionsOr) CondTermList OR CondTerm
+			|
+			(SignelConditionOr) CondTerm
+			;
+
+CondTerm ::= (MultipleConditionFacts) CondTerm AND CondFact
+			|
+			(SignleConditionFact) CondFact
+			;
+
+CondFact ::= (OneExpression) Expr
+			|
+			(CompareExpression) Expr:e1 Relop Expr:e2
+			;
+			
+Expr ::= (MinusExpr) MINUS AddopTermList
+			|
+			(NoMinusExpr)  AddopTermList
+			;
+
+AddopTermList ::= (MultipleTerms) AddopTermList Addop Term
+			|
+			(TermOne) Term
+			;
+
+Term ::= (Term) MulopFactorList;
+
+MulopFactorList ::= (MultipleFactors) MulopFactorList:f1 Mulop Factor:f2
+			|
+			(FactorOne) Factor
+			;
+
+Factor ::= (FactorDesignator) Designator ActParsListNB
+			|
+			(FactorNumber) NUMCONST
+			|
+			(FactorChar) CHARCONST
+			|
+			(FactorBool) BOOLCONST
+			|
+			(FactorNew) NEW Type:typeName ExprOrActPars
+			|
+			(FactorExpr) LROUNDBRACKET Expr:e RROUNDBRACKET
+			;
+
+ActParsListNB ::= (BracesPars) LROUNDBRACKET ActParsListN RROUNDBRACKET
+			|
+			(NoBracesPars) /* epsilon */
+			;
+
+ExprOrActPars ::= (FactorNewExpr) LSQUAREBRACKET Expr:e RSQUAREBRACKET
+			|
+			(FactorNewActPars) LROUNDBRACKET ActParsListN RROUNDBRACKET
+			;
+			
+Designator ::= (ArrayElemDesignator) DesignatorName:d LSQUAREBRACKET Expr:exp RSQUAREBRACKET
+			|
+			(FieldDesignator) DesignatorName:d DOT IDENT:elemName
+			|
+			(SingleDesignator) DesignatorName:d
+			;
+			
+DesignatorName ::= (DesignatorName) IDENT:varName;
+			
+Label ::= (Label) IDENT;
+
+Assignop ::= (Assignop) ASSIGN;
+
+Relop ::= (RelopEq) EQ
+			|
+			(RelopNeq) NEQ
+			|
+			(RelopGt) GT
+			|
+			(RelopGeq) GEQ
+			|
+			(RelopLt) LT
+			|
+			(RelopLeq) LEQ
+			;
+
+Addop ::= (Add) PLUS
+			|
+			(Sub) MINUS
+			;
+
+Mulop ::= (Mul) MUL
+			|
+			(Div) DIV
+			|
+			(Mod) MOD
+			;
+
+
+
+

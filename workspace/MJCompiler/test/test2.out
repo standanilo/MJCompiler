@@ -1,0 +1,169 @@
+INFO  12:48:41,588 - Compiling source file: C:\Users\Danilo\Desktop\workspace\MJCompiler\test\test2.mj
+INFO  12:48:41,619 - #2 program
+INFO  12:48:41,620 - #47 test2
+INFO  12:48:41,620 - #47 int
+INFO  12:48:41,620 - #47 a
+INFO  12:48:41,620 - #7 ,
+INFO  12:48:41,621 - #47 b
+INFO  12:48:41,621 - #6 ;
+INFO  12:48:41,621 - #5 const
+INFO  12:48:41,621 - #47 int
+INFO  12:48:41,621 - #47 c
+INFO  12:48:41,621 - #8 =
+INFO  12:48:41,621 - #48 1
+INFO  12:48:41,621 - #6 ;
+INFO  12:48:41,621 - #47 char
+INFO  12:48:41,622 - #47 c
+INFO  12:48:41,622 - #6 ;
+INFO  12:48:41,622 - #3 {
+INFO  12:48:41,622 - #13 void
+INFO  12:48:41,622 - #47 main
+INFO  12:48:41,622 - #11 (
+INFO  12:48:41,622 - #12 )
+INFO  12:48:41,623 - #3 {
+INFO  12:48:41,623 - #14 [
+INFO  12:48:41,624 - #47 i
+INFO  12:48:41,624 - #7 ,
+INFO  12:48:41,624 - #47 j
+INFO  12:48:41,625 - #7 ,
+INFO  12:48:41,625 - #47 k
+INFO  12:48:41,625 - #15 ]
+INFO  12:48:41,625 - #8 =
+INFO  12:48:41,625 - #48 1
+INFO  12:48:41,625 - #6 ;
+INFO  12:48:41,625 - #47 i
+INFO  12:48:41,625 - #8 =
+INFO  12:48:41,625 - #48 1
+INFO  12:48:41,626 - #33 +
+INFO  12:48:41,627 - #48 2
+INFO  12:48:41,627 - #33 +
+INFO  12:48:41,627 - #6 ;
+INFO  12:48:41,627 - #47 j
+INFO  12:48:41,627 - #8 =
+INFO  12:48:41,627 - #48 4
+INFO  12:48:41,628 - #34 *
+INFO  12:48:41,628 - #6 ;
+INFO  12:48:41,628 - #4 }
+INFO  12:48:41,628 - #4 }
+INFO  12:48:41,631 - Program(
+  ProgName(
+   test2
+  ) [ProgName]
+  ProgDeclarations(
+    ProgDeclarations(
+      ProgDeclarations(
+        NoProgDeclarations(
+        ) [NoProgDeclarations]
+        ProgVarList(
+          GlobalVarDeclarations(
+            Type(
+             int
+            ) [Type]
+            MultipleGlobalVarDeclarations(
+              GlobalVarComma(
+                NoArrayGlobalVarDeclarations(
+                 a
+                ) [NoArrayGlobalVarDeclarations]
+              ) [GlobalVarComma]
+              SingleGlobalVarDeclaration(
+                GlobalVarSemi(
+                  NoArrayGlobalVarDeclarations(
+                   b
+                  ) [NoArrayGlobalVarDeclarations]
+                ) [GlobalVarSemi]
+              ) [SingleGlobalVarDeclaration]
+            ) [MultipleGlobalVarDeclarations]
+          ) [GlobalVarDeclarations]
+        ) [ProgVarList]
+      ) [ProgDeclarations]
+      ProgConstList(
+        ConstDeclarations(
+          Type(
+           int
+          ) [Type]
+          SingleConstDeclaration(
+            ConstNumber(
+             c
+             1
+            ) [ConstNumber]
+          ) [SingleConstDeclaration]
+        ) [ConstDeclarations]
+      ) [ProgConstList]
+    ) [ProgDeclarations]
+    ProgVarList(
+      GlobalVarDeclarations(
+        Type(
+         char
+        ) [Type]
+        SingleGlobalVarDeclaration(
+          GlobalVarSemi(
+            NoArrayGlobalVarDeclarations(
+             c
+            ) [NoArrayGlobalVarDeclarations]
+          ) [GlobalVarSemi]
+        ) [SingleGlobalVarDeclaration]
+      ) [GlobalVarDeclarations]
+    ) [ProgVarList]
+  ) [ProgDeclarations]
+  MultipleMethodDeclarations(
+    NoneMethodDeclarations(
+    ) [NoneMethodDeclarations]
+    MethodDecls(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoParamsDeclarations(
+      ) [NoParamsDeclarations]
+      NoMethodVarDeclarations(
+      ) [NoMethodVarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStatement(
+              DesignatorStatements(
+                DesignatorOperation(
+                  DesignatorError3(
+                  ) [DesignatorError3]
+                ) [DesignatorOperation]
+              ) [DesignatorStatements]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            DesignatorStatements(
+              DesignatorOperation(
+                DesignatorError3(
+                ) [DesignatorError3]
+              ) [DesignatorOperation]
+            ) [DesignatorStatements]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          DesignatorStatements(
+            DesignatorOperation(
+              DesignatorError3(
+              ) [DesignatorError3]
+            ) [DesignatorOperation]
+          ) [DesignatorStatements]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDecls]
+  ) [MultipleMethodDeclarations]
+) [Program]
+INFO  12:48:41,632 - ===================================
+INFO  12:48:41,634 - Global variable a declared in line 5
+INFO  12:48:41,634 - Global variable b declared in line 5
+INFO  12:48:41,635 - Integer constant c declared in line 6
+INFO  12:48:41,635 - Method main declared in line 10
+INFO  12:48:41,635 - Method main processed in line 10
+INFO  12:48:41,635 - ===================================
+INFO  12:48:41,635 - ===================================
+INFO  12:48:41,635 - Number of declared constants: 1
+INFO  12:48:41,635 - Number of used constants: 0
+INFO  12:48:41,635 - Number of declared global variables: 2
+INFO  12:48:41,635 - Number of used global variables: 0
+INFO  12:48:41,636 - Number of declared local variables: 0
+INFO  12:48:41,636 - Number of used local variables: 0
+INFO  12:48:41,636 - Number of variables: 2
+INFO  12:48:41,636 - ===================================

@@ -1,0 +1,41 @@
+// test3
+
+program test3
+	
+	const int a = true;
+	const bool b = 1;
+	const char c = 2;
+	ch d;
+	const int e = 3;
+	const bool e1 = false;
+	const char e2 = 'e';
+	int f, h;
+	int f[];
+	int j[];
+	char i;
+	int a1, a2, a3;
+	
+{
+	void main(int arg)	
+	{
+		e = 2;
+		f = '1';
+		q = 1;
+		h = 1;
+		e++;
+		i--;
+		[a1, e] = a2;
+		[a1, a2, i] = [i, b, j];
+		print("dsa");
+		print(j);
+		
+		a3 = -e2;
+		a3 = e2 * e1;
+		j = new int[e1];
+		a2 = a1[1];
+		a2 = j[e2];
+		
+	}	
+}
+
+

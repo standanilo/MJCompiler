@@ -1,0 +1,9 @@
+ERROR 12:48:41,625 - 
+Syntax error in line 12
+ERROR 12:48:41,625 - Recovered from error when constructing an assignment statement up to the ; 1
+ERROR 12:48:41,627 - 
+Syntax error in line 13
+ERROR 12:48:41,627 - Recovered from error when constructing an assignment statement up to the ; 1
+ERROR 12:48:41,628 - Recovered from error when constructing an assignment statement up to the ; 1
+ERROR 12:48:41,635 - Error: c already declared in global scope in line 7
+ERROR 12:48:41,636 - Parsing failed!

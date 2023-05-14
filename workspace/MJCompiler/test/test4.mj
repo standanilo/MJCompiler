@@ -1,0 +1,42 @@
+// test4
+
+program test4
+	
+	int a;
+	const int N = 2;
+	const bool tacno = true;
+	bool netacno;
+	const char slovoa = 'a';
+	int g;
+	
+{
+	void main()	int x, y; int niz[];
+	{
+		netacno = false;
+		g = N;
+		y = 53;
+		g++;
+		x = -y + g * N - 7;
+		y--;
+		
+		print(netacno);
+		print(x);
+		print(y);
+		print(g);
+		
+		niz = new int[g];
+		niz[0] = 2;
+		niz[1] = 4;
+		niz[2] = -8;
+		
+		print(N, 1, 2, 3);
+		
+		[x, y, g] = niz;
+		
+		print(x);
+		print(y);
+		print(g);
+	}	
+}
+
+

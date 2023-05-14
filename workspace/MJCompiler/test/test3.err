@@ -1,0 +1,32 @@
+ERROR 12:50:30,252 - Error: Constant a is of the wrong type in line 5
+ERROR 12:50:30,252 - Error: Constant b is of the wrong type in line 6
+ERROR 12:50:30,252 - Error: Constant c is of the wrong type in line 7
+ERROR 12:50:30,252 - Error: Type ch is not defined
+ERROR 12:50:30,252 - Error: ch is not a type
+ERROR 12:50:30,252 - Error: f already declared in global scope in line 13
+ERROR 12:50:30,252 - Error: Main method must have no arguments in line 19
+ERROR 12:50:30,252 - Error: e must be variable or array element in line 21
+ERROR 12:50:30,252 - Error: Incompatible types in line 22
+ERROR 12:50:30,252 - Error: q not declared in line 23
+ERROR 12:50:30,253 - Error: Incompatible types in line 23
+ERROR 12:50:30,253 - Error: e must be variable or array element in line 25
+ERROR 12:50:30,253 - Error: i must be of int type in line 26
+ERROR 12:50:30,253 - Error: e must be variable or array element in line 27
+ERROR 12:50:30,253 - Error: a2 must be an array in line 27
+ERROR 12:50:30,253 - Error: b not declared in line 28
+ERROR 12:50:30,253 - Error: Incompatible types in line 28
+ERROR 12:50:30,253 - Error: Incompatible types in line 28
+ERROR 12:50:30,253 - Error: Incompatible types in line 28
+ERROR 12:50:30,253 - Error: dsa not declared in line 29
+ERROR 12:50:30,253 - Error: Expression must be of int, char or bool type in line 29
+ERROR 12:50:30,253 - Error: Expression must be of int, char or bool type in line 30
+ERROR 12:50:30,253 - Error: Must be int type in line 32
+ERROR 12:50:30,253 - Error: Incompatible types in line 32
+ERROR 12:50:30,253 - Error: Must be int type in line 33
+ERROR 12:50:30,253 - Error: Incompatible types in line 33
+ERROR 12:50:30,253 - Error: Expression must be int type in line 34
+ERROR 12:50:30,254 - Error: Expression must be int type in line 34
+ERROR 12:50:30,254 - Error: Variable must be array in line 35
+ERROR 12:50:30,254 - Error: Incompatible types in line 35
+ERROR 12:50:30,254 - Error: Expression must be int type in line 36
+ERROR 12:50:30,254 - Parsing failed!

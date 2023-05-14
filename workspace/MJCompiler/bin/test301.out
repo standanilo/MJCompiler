@@ -1,0 +1,1934 @@
+INFO  12:53:11,698 - Compiling source file: C:\Users\Danilo\Desktop\workspace\MJCompiler\test\test301.mj
+INFO  12:53:11,730 - #2 program
+INFO  12:53:11,730 - #47 test301
+INFO  12:53:11,730 - #5 const
+INFO  12:53:11,730 - #47 int
+INFO  12:53:11,730 - #47 nula
+INFO  12:53:11,731 - #8 =
+INFO  12:53:11,731 - #48 0
+INFO  12:53:11,731 - #6 ;
+INFO  12:53:11,731 - #5 const
+INFO  12:53:11,731 - #47 int
+INFO  12:53:11,731 - #47 jedan
+INFO  12:53:11,731 - #8 =
+INFO  12:53:11,731 - #48 1
+INFO  12:53:11,731 - #6 ;
+INFO  12:53:11,731 - #5 const
+INFO  12:53:11,731 - #47 int
+INFO  12:53:11,731 - #47 pet
+INFO  12:53:11,732 - #8 =
+INFO  12:53:11,732 - #48 5
+INFO  12:53:11,732 - #6 ;
+INFO  12:53:11,732 - #47 int
+INFO  12:53:11,732 - #47 niz
+INFO  12:53:11,733 - #14 [
+INFO  12:53:11,733 - #15 ]
+INFO  12:53:11,733 - #7 ,
+INFO  12:53:11,733 - #47 niz2
+INFO  12:53:11,733 - #14 [
+INFO  12:53:11,733 - #15 ]
+INFO  12:53:11,733 - #7 ,
+INFO  12:53:11,733 - #47 a
+INFO  12:53:11,733 - #7 ,
+INFO  12:53:11,733 - #47 b
+INFO  12:53:11,733 - #6 ;
+INFO  12:53:11,733 - #47 char
+INFO  12:53:11,734 - #47 nizch
+INFO  12:53:11,734 - #14 [
+INFO  12:53:11,734 - #15 ]
+INFO  12:53:11,734 - #6 ;
+INFO  12:53:11,734 - #3 {
+INFO  12:53:11,734 - #13 void
+INFO  12:53:11,734 - #47 main
+INFO  12:53:11,734 - #11 (
+INFO  12:53:11,734 - #12 )
+INFO  12:53:11,735 - #47 int
+INFO  12:53:11,735 - #47 bodovi
+INFO  12:53:11,735 - #6 ;
+INFO  12:53:11,735 - #47 bool
+INFO  12:53:11,735 - #47 bt
+INFO  12:53:11,735 - #6 ;
+INFO  12:53:11,735 - #3 {
+INFO  12:53:11,735 - #47 bodovi
+INFO  12:53:11,736 - #8 =
+INFO  12:53:11,736 - #48 0
+INFO  12:53:11,736 - #6 ;
+INFO  12:53:11,737 - #47 bodovi
+INFO  12:53:11,737 - #26 ++
+INFO  12:53:11,737 - #6 ;
+INFO  12:53:11,737 - #47 bodovi
+INFO  12:53:11,737 - #8 =
+INFO  12:53:11,737 - #47 bodovi
+INFO  12:53:11,737 - #33 +
+INFO  12:53:11,738 - #47 jedan
+INFO  12:53:11,738 - #6 ;
+INFO  12:53:11,738 - #47 bodovi
+INFO  12:53:11,738 - #8 =
+INFO  12:53:11,738 - #47 bodovi
+INFO  12:53:11,738 - #34 *
+INFO  12:53:11,738 - #47 pet
+INFO  12:53:11,740 - #6 ;
+INFO  12:53:11,740 - #47 bodovi
+INFO  12:53:11,740 - #27 --
+INFO  12:53:11,740 - #6 ;
+INFO  12:53:11,740 - #23 print
+INFO  12:53:11,740 - #11 (
+INFO  12:53:11,740 - #47 bodovi
+INFO  12:53:11,740 - #12 )
+INFO  12:53:11,741 - #6 ;
+INFO  12:53:11,741 - #47 niz
+INFO  12:53:11,741 - #8 =
+INFO  12:53:11,741 - #31 new
+INFO  12:53:11,741 - #47 int
+INFO  12:53:11,741 - #14 [
+INFO  12:53:11,741 - #48 3
+INFO  12:53:11,741 - #15 ]
+INFO  12:53:11,741 - #6 ;
+INFO  12:53:11,741 - #47 niz
+INFO  12:53:11,741 - #14 [
+INFO  12:53:11,741 - #47 nula
+INFO  12:53:11,741 - #15 ]
+INFO  12:53:11,741 - #8 =
+INFO  12:53:11,741 - #47 jedan
+INFO  12:53:11,741 - #6 ;
+INFO  12:53:11,741 - #47 niz
+INFO  12:53:11,741 - #14 [
+INFO  12:53:11,742 - #48 1
+INFO  12:53:11,742 - #15 ]
+INFO  12:53:11,742 - #8 =
+INFO  12:53:11,742 - #48 2
+INFO  12:53:11,742 - #6 ;
+INFO  12:53:11,742 - #47 niz
+INFO  12:53:11,742 - #14 [
+INFO  12:53:11,742 - #47 niz
+INFO  12:53:11,742 - #14 [
+INFO  12:53:11,742 - #47 jedan
+INFO  12:53:11,742 - #15 ]
+INFO  12:53:11,742 - #15 ]
+INFO  12:53:11,742 - #8 =
+INFO  12:53:11,742 - #47 niz
+INFO  12:53:11,742 - #14 [
+INFO  12:53:11,742 - #47 niz
+INFO  12:53:11,742 - #14 [
+INFO  12:53:11,742 - #48 0
+INFO  12:53:11,742 - #15 ]
+INFO  12:53:11,742 - #15 ]
+INFO  12:53:11,742 - #34 *
+INFO  12:53:11,742 - #48 3
+INFO  12:53:11,742 - #6 ;
+INFO  12:53:11,742 - #47 bodovi
+INFO  12:53:11,742 - #8 =
+INFO  12:53:11,742 - #47 niz
+INFO  12:53:11,742 - #14 [
+INFO  12:53:11,742 - #48 2
+INFO  12:53:11,742 - #15 ]
+INFO  12:53:11,742 - #35 /
+INFO  12:53:11,742 - #47 niz
+INFO  12:53:11,743 - #14 [
+INFO  12:53:11,743 - #48 0
+INFO  12:53:11,743 - #15 ]
+INFO  12:53:11,743 - #6 ;
+INFO  12:53:11,743 - #23 print
+INFO  12:53:11,743 - #11 (
+INFO  12:53:11,743 - #47 bodovi
+INFO  12:53:11,743 - #12 )
+INFO  12:53:11,743 - #6 ;
+INFO  12:53:11,743 - #23 print
+INFO  12:53:11,743 - #11 (
+INFO  12:53:11,743 - #47 niz
+INFO  12:53:11,743 - #14 [
+INFO  12:53:11,743 - #48 2
+INFO  12:53:11,743 - #15 ]
+INFO  12:53:11,743 - #12 )
+INFO  12:53:11,743 - #6 ;
+INFO  12:53:11,743 - #14 [
+INFO  12:53:11,743 - #47 a
+INFO  12:53:11,744 - #7 ,
+INFO  12:53:11,744 - #47 b
+INFO  12:53:11,744 - #15 ]
+INFO  12:53:11,744 - #8 =
+INFO  12:53:11,744 - #47 niz
+INFO  12:53:11,744 - #6 ;
+INFO  12:53:11,744 - #23 print
+INFO  12:53:11,744 - #11 (
+INFO  12:53:11,744 - #47 a
+INFO  12:53:11,744 - #12 )
+INFO  12:53:11,744 - #6 ;
+INFO  12:53:11,744 - #23 print
+INFO  12:53:11,744 - #11 (
+INFO  12:53:11,744 - #47 b
+INFO  12:53:11,744 - #12 )
+INFO  12:53:11,745 - #6 ;
+INFO  12:53:11,745 - #14 [
+INFO  12:53:11,745 - #7 ,
+INFO  12:53:11,745 - #47 a
+INFO  12:53:11,745 - #7 ,
+INFO  12:53:11,745 - #15 ]
+INFO  12:53:11,745 - #8 =
+INFO  12:53:11,745 - #47 niz
+INFO  12:53:11,746 - #6 ;
+INFO  12:53:11,746 - #23 print
+INFO  12:53:11,746 - #11 (
+INFO  12:53:11,746 - #47 a
+INFO  12:53:11,746 - #12 )
+INFO  12:53:11,746 - #6 ;
+INFO  12:53:11,746 - #47 niz2
+INFO  12:53:11,746 - #8 =
+INFO  12:53:11,746 - #31 new
+INFO  12:53:11,746 - #47 int
+INFO  12:53:11,746 - #14 [
+INFO  12:53:11,746 - #48 2
+INFO  12:53:11,746 - #15 ]
+INFO  12:53:11,746 - #6 ;
+INFO  12:53:11,746 - #14 [
+INFO  12:53:11,746 - #47 niz2
+INFO  12:53:11,746 - #14 [
+INFO  12:53:11,746 - #48 0
+INFO  12:53:11,746 - #15 ]
+INFO  12:53:11,746 - #7 ,
+INFO  12:53:11,746 - #7 ,
+INFO  12:53:11,746 - #47 niz2
+INFO  12:53:11,746 - #14 [
+INFO  12:53:11,746 - #47 niz
+INFO  12:53:11,746 - #14 [
+INFO  12:53:11,746 - #47 nula
+INFO  12:53:11,746 - #15 ]
+INFO  12:53:11,746 - #15 ]
+INFO  12:53:11,746 - #15 ]
+INFO  12:53:11,746 - #8 =
+INFO  12:53:11,746 - #47 niz
+INFO  12:53:11,746 - #6 ;
+INFO  12:53:11,746 - #23 print
+INFO  12:53:11,746 - #11 (
+INFO  12:53:11,746 - #47 niz2
+INFO  12:53:11,746 - #14 [
+INFO  12:53:11,746 - #48 0
+INFO  12:53:11,747 - #15 ]
+INFO  12:53:11,747 - #12 )
+INFO  12:53:11,747 - #6 ;
+INFO  12:53:11,747 - #23 print
+INFO  12:53:11,747 - #11 (
+INFO  12:53:11,747 - #47 niz2
+INFO  12:53:11,747 - #14 [
+INFO  12:53:11,747 - #48 1
+INFO  12:53:11,747 - #15 ]
+INFO  12:53:11,747 - #12 )
+INFO  12:53:11,747 - #6 ;
+INFO  12:53:11,747 - #47 nizch
+INFO  12:53:11,747 - #8 =
+INFO  12:53:11,747 - #31 new
+INFO  12:53:11,747 - #47 char
+INFO  12:53:11,747 - #14 [
+INFO  12:53:11,747 - #48 3
+INFO  12:53:11,747 - #15 ]
+INFO  12:53:11,747 - #6 ;
+INFO  12:53:11,747 - #47 nizch
+INFO  12:53:11,747 - #14 [
+INFO  12:53:11,747 - #48 0
+INFO  12:53:11,747 - #15 ]
+INFO  12:53:11,747 - #8 =
+INFO  12:53:11,747 - #50 a
+INFO  12:53:11,747 - #6 ;
+INFO  12:53:11,747 - #47 nizch
+INFO  12:53:11,747 - #14 [
+INFO  12:53:11,748 - #47 jedan
+INFO  12:53:11,748 - #15 ]
+INFO  12:53:11,748 - #8 =
+INFO  12:53:11,748 - #50 b
+INFO  12:53:11,748 - #6 ;
+INFO  12:53:11,748 - #47 nizch
+INFO  12:53:11,748 - #14 [
+INFO  12:53:11,748 - #47 pet
+INFO  12:53:11,748 - #32 -
+INFO  12:53:11,748 - #48 3
+INFO  12:53:11,748 - #15 ]
+INFO  12:53:11,748 - #8 =
+INFO  12:53:11,748 - #50 c
+INFO  12:53:11,748 - #6 ;
+INFO  12:53:11,748 - #23 print
+INFO  12:53:11,748 - #11 (
+INFO  12:53:11,748 - #47 nizch
+INFO  12:53:11,748 - #14 [
+INFO  12:53:11,748 - #48 1
+INFO  12:53:11,748 - #15 ]
+INFO  12:53:11,748 - #12 )
+INFO  12:53:11,748 - #6 ;
+INFO  12:53:11,748 - #23 print
+INFO  12:53:11,749 - #11 (
+INFO  12:53:11,749 - #47 nizch
+INFO  12:53:11,749 - #14 [
+INFO  12:53:11,749 - #47 jedan
+INFO  12:53:11,749 - #34 *
+INFO  12:53:11,749 - #48 2
+INFO  12:53:11,749 - #15 ]
+INFO  12:53:11,749 - #12 )
+INFO  12:53:11,749 - #6 ;
+INFO  12:53:11,749 - #22 read
+INFO  12:53:11,749 - #11 (
+INFO  12:53:11,749 - #47 bodovi
+INFO  12:53:11,749 - #12 )
+INFO  12:53:11,749 - #6 ;
+INFO  12:53:11,749 - #47 bodovi
+INFO  12:53:11,749 - #8 =
+INFO  12:53:11,749 - #32 -
+INFO  12:53:11,749 - #47 bodovi
+INFO  12:53:11,749 - #33 +
+INFO  12:53:11,749 - #11 (
+INFO  12:53:11,749 - #47 pet
+INFO  12:53:11,749 - #34 *
+INFO  12:53:11,749 - #47 a
+INFO  12:53:11,749 - #35 /
+INFO  12:53:11,749 - #48 2
+INFO  12:53:11,749 - #32 -
+INFO  12:53:11,749 - #47 jedan
+INFO  12:53:11,749 - #12 )
+INFO  12:53:11,749 - #34 *
+INFO  12:53:11,749 - #47 bodovi
+INFO  12:53:11,749 - #32 -
+INFO  12:53:11,750 - #11 (
+INFO  12:53:11,750 - #48 3
+INFO  12:53:11,750 - #36 %
+INFO  12:53:11,750 - #48 2
+INFO  12:53:11,750 - #33 +
+INFO  12:53:11,750 - #48 3
+INFO  12:53:11,750 - #34 *
+INFO  12:53:11,750 - #48 2
+INFO  12:53:11,750 - #32 -
+INFO  12:53:11,750 - #48 3
+INFO  12:53:11,750 - #12 )
+INFO  12:53:11,750 - #6 ;
+INFO  12:53:11,750 - #23 print
+INFO  12:53:11,750 - #11 (
+INFO  12:53:11,750 - #47 bodovi
+INFO  12:53:11,750 - #12 )
+INFO  12:53:11,750 - #6 ;
+INFO  12:53:11,750 - #4 }
+INFO  12:53:11,750 - #4 }
+INFO  12:53:11,760 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ProgDeclarations(
+    ProgDeclarations(
+      ProgDeclarations(
+        ProgDeclarations(
+          ProgDeclarations(
+            NoProgDeclarations(
+            ) [NoProgDeclarations]
+            ProgConstList(
+              ConstDeclarations(
+                Type(
+                 int
+                ) [Type]
+                SingleConstDeclaration(
+                  ConstNumber(
+                   nula
+                   0
+                  ) [ConstNumber]
+                ) [SingleConstDeclaration]
+              ) [ConstDeclarations]
+            ) [ProgConstList]
+          ) [ProgDeclarations]
+          ProgConstList(
+            ConstDeclarations(
+              Type(
+               int
+              ) [Type]
+              SingleConstDeclaration(
+                ConstNumber(
+                 jedan
+                 1
+                ) [ConstNumber]
+              ) [SingleConstDeclaration]
+            ) [ConstDeclarations]
+          ) [ProgConstList]
+        ) [ProgDeclarations]
+        ProgConstList(
+          ConstDeclarations(
+            Type(
+             int
+            ) [Type]
+            SingleConstDeclaration(
+              ConstNumber(
+               pet
+               5
+              ) [ConstNumber]
+            ) [SingleConstDeclaration]
+          ) [ConstDeclarations]
+        ) [ProgConstList]
+      ) [ProgDeclarations]
+      ProgVarList(
+        GlobalVarDeclarations(
+          Type(
+           int
+          ) [Type]
+          MultipleGlobalVarDeclarations(
+            GlobalVarComma(
+              ArrayGlobalVarDeclarations(
+               niz
+              ) [ArrayGlobalVarDeclarations]
+            ) [GlobalVarComma]
+            MultipleGlobalVarDeclarations(
+              GlobalVarComma(
+                ArrayGlobalVarDeclarations(
+                 niz2
+                ) [ArrayGlobalVarDeclarations]
+              ) [GlobalVarComma]
+              MultipleGlobalVarDeclarations(
+                GlobalVarComma(
+                  NoArrayGlobalVarDeclarations(
+                   a
+                  ) [NoArrayGlobalVarDeclarations]
+                ) [GlobalVarComma]
+                SingleGlobalVarDeclaration(
+                  GlobalVarSemi(
+                    NoArrayGlobalVarDeclarations(
+                     b
+                    ) [NoArrayGlobalVarDeclarations]
+                  ) [GlobalVarSemi]
+                ) [SingleGlobalVarDeclaration]
+              ) [MultipleGlobalVarDeclarations]
+            ) [MultipleGlobalVarDeclarations]
+          ) [MultipleGlobalVarDeclarations]
+        ) [GlobalVarDeclarations]
+      ) [ProgVarList]
+    ) [ProgDeclarations]
+    ProgVarList(
+      GlobalVarDeclarations(
+        Type(
+         char
+        ) [Type]
+        SingleGlobalVarDeclaration(
+          GlobalVarSemi(
+            ArrayGlobalVarDeclarations(
+             nizch
+            ) [ArrayGlobalVarDeclarations]
+          ) [GlobalVarSemi]
+        ) [SingleGlobalVarDeclaration]
+      ) [GlobalVarDeclarations]
+    ) [ProgVarList]
+  ) [ProgDeclarations]
+  MultipleMethodDeclarations(
+    NoneMethodDeclarations(
+    ) [NoneMethodDeclarations]
+    MethodDecls(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoParamsDeclarations(
+      ) [NoParamsDeclarations]
+      MethodVarDeclarations(
+        MethodVarDeclarations(
+          NoMethodVarDeclarations(
+          ) [NoMethodVarDeclarations]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            SingleVarDeclaration(
+              NoArrayVarDeclarations(
+               bodovi
+              ) [NoArrayVarDeclarations]
+            ) [SingleVarDeclaration]
+          ) [VarDeclarations]
+        ) [MethodVarDeclarations]
+        VarDeclarations(
+          Type(
+           bool
+          ) [Type]
+          SingleVarDeclaration(
+            NoArrayVarDeclarations(
+             bt
+            ) [NoArrayVarDeclarations]
+          ) [SingleVarDeclaration]
+        ) [VarDeclarations]
+      ) [MethodVarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        Statements(
+                                                          Statements(
+                                                            Statements(
+                                                              Statements(
+                                                                Statements(
+                                                                  Statements(
+                                                                    NoStmt(
+                                                                    ) [NoStmt]
+                                                                    MatchedStatement(
+                                                                      DesignatorStatements(
+                                                                        DesignatorOperation(
+                                                                          DesignatorAssign(
+                                                                            SingleDesignator(
+                                                                              DesignatorName(
+                                                                               bodovi
+                                                                              ) [DesignatorName]
+                                                                            ) [SingleDesignator]
+                                                                            Assignop(
+                                                                            ) [Assignop]
+                                                                            NoMinusExpr(
+                                                                              TermOne(
+                                                                                Term(
+                                                                                  FactorOne(
+                                                                                    FactorNumber(
+                                                                                     0
+                                                                                    ) [FactorNumber]
+                                                                                  ) [FactorOne]
+                                                                                ) [Term]
+                                                                              ) [TermOne]
+                                                                            ) [NoMinusExpr]
+                                                                          ) [DesignatorAssign]
+                                                                        ) [DesignatorOperation]
+                                                                      ) [DesignatorStatements]
+                                                                    ) [MatchedStatement]
+                                                                  ) [Statements]
+                                                                  MatchedStatement(
+                                                                    DesignatorStatements(
+                                                                      DesignatorOperation(
+                                                                        DesignatorInc(
+                                                                          SingleDesignator(
+                                                                            DesignatorName(
+                                                                             bodovi
+                                                                            ) [DesignatorName]
+                                                                          ) [SingleDesignator]
+                                                                        ) [DesignatorInc]
+                                                                      ) [DesignatorOperation]
+                                                                    ) [DesignatorStatements]
+                                                                  ) [MatchedStatement]
+                                                                ) [Statements]
+                                                                MatchedStatement(
+                                                                  DesignatorStatements(
+                                                                    DesignatorOperation(
+                                                                      DesignatorAssign(
+                                                                        SingleDesignator(
+                                                                          DesignatorName(
+                                                                           bodovi
+                                                                          ) [DesignatorName]
+                                                                        ) [SingleDesignator]
+                                                                        Assignop(
+                                                                        ) [Assignop]
+                                                                        NoMinusExpr(
+                                                                          MultipleTerms(
+                                                                            TermOne(
+                                                                              Term(
+                                                                                FactorOne(
+                                                                                  FactorDesignator(
+                                                                                    SingleDesignator(
+                                                                                      DesignatorName(
+                                                                                       bodovi
+                                                                                      ) [DesignatorName]
+                                                                                    ) [SingleDesignator]
+                                                                                    NoBracesPars(
+                                                                                    ) [NoBracesPars]
+                                                                                  ) [FactorDesignator]
+                                                                                ) [FactorOne]
+                                                                              ) [Term]
+                                                                            ) [TermOne]
+                                                                            Add(
+                                                                            ) [Add]
+                                                                            Term(
+                                                                              FactorOne(
+                                                                                FactorDesignator(
+                                                                                  SingleDesignator(
+                                                                                    DesignatorName(
+                                                                                     jedan
+                                                                                    ) [DesignatorName]
+                                                                                  ) [SingleDesignator]
+                                                                                  NoBracesPars(
+                                                                                  ) [NoBracesPars]
+                                                                                ) [FactorDesignator]
+                                                                              ) [FactorOne]
+                                                                            ) [Term]
+                                                                          ) [MultipleTerms]
+                                                                        ) [NoMinusExpr]
+                                                                      ) [DesignatorAssign]
+                                                                    ) [DesignatorOperation]
+                                                                  ) [DesignatorStatements]
+                                                                ) [MatchedStatement]
+                                                              ) [Statements]
+                                                              MatchedStatement(
+                                                                DesignatorStatements(
+                                                                  DesignatorOperation(
+                                                                    DesignatorAssign(
+                                                                      SingleDesignator(
+                                                                        DesignatorName(
+                                                                         bodovi
+                                                                        ) [DesignatorName]
+                                                                      ) [SingleDesignator]
+                                                                      Assignop(
+                                                                      ) [Assignop]
+                                                                      NoMinusExpr(
+                                                                        TermOne(
+                                                                          Term(
+                                                                            MultipleFactors(
+                                                                              FactorOne(
+                                                                                FactorDesignator(
+                                                                                  SingleDesignator(
+                                                                                    DesignatorName(
+                                                                                     bodovi
+                                                                                    ) [DesignatorName]
+                                                                                  ) [SingleDesignator]
+                                                                                  NoBracesPars(
+                                                                                  ) [NoBracesPars]
+                                                                                ) [FactorDesignator]
+                                                                              ) [FactorOne]
+                                                                              Mul(
+                                                                              ) [Mul]
+                                                                              FactorDesignator(
+                                                                                SingleDesignator(
+                                                                                  DesignatorName(
+                                                                                   pet
+                                                                                  ) [DesignatorName]
+                                                                                ) [SingleDesignator]
+                                                                                NoBracesPars(
+                                                                                ) [NoBracesPars]
+                                                                              ) [FactorDesignator]
+                                                                            ) [MultipleFactors]
+                                                                          ) [Term]
+                                                                        ) [TermOne]
+                                                                      ) [NoMinusExpr]
+                                                                    ) [DesignatorAssign]
+                                                                  ) [DesignatorOperation]
+                                                                ) [DesignatorStatements]
+                                                              ) [MatchedStatement]
+                                                            ) [Statements]
+                                                            MatchedStatement(
+                                                              DesignatorStatements(
+                                                                DesignatorOperation(
+                                                                  DesignatorDec(
+                                                                    SingleDesignator(
+                                                                      DesignatorName(
+                                                                       bodovi
+                                                                      ) [DesignatorName]
+                                                                    ) [SingleDesignator]
+                                                                  ) [DesignatorDec]
+                                                                ) [DesignatorOperation]
+                                                              ) [DesignatorStatements]
+                                                            ) [MatchedStatement]
+                                                          ) [Statements]
+                                                          MatchedStatement(
+                                                            PrintStatement(
+                                                              NoMinusExpr(
+                                                                TermOne(
+                                                                  Term(
+                                                                    FactorOne(
+                                                                      FactorDesignator(
+                                                                        SingleDesignator(
+                                                                          DesignatorName(
+                                                                           bodovi
+                                                                          ) [DesignatorName]
+                                                                        ) [SingleDesignator]
+                                                                        NoBracesPars(
+                                                                        ) [NoBracesPars]
+                                                                      ) [FactorDesignator]
+                                                                    ) [FactorOne]
+                                                                  ) [Term]
+                                                                ) [TermOne]
+                                                              ) [NoMinusExpr]
+                                                              NoNumbers(
+                                                              ) [NoNumbers]
+                                                            ) [PrintStatement]
+                                                          ) [MatchedStatement]
+                                                        ) [Statements]
+                                                        MatchedStatement(
+                                                          DesignatorStatements(
+                                                            DesignatorOperation(
+                                                              DesignatorAssign(
+                                                                SingleDesignator(
+                                                                  DesignatorName(
+                                                                   niz
+                                                                  ) [DesignatorName]
+                                                                ) [SingleDesignator]
+                                                                Assignop(
+                                                                ) [Assignop]
+                                                                NoMinusExpr(
+                                                                  TermOne(
+                                                                    Term(
+                                                                      FactorOne(
+                                                                        FactorNew(
+                                                                          Type(
+                                                                           int
+                                                                          ) [Type]
+                                                                          FactorNewExpr(
+                                                                            NoMinusExpr(
+                                                                              TermOne(
+                                                                                Term(
+                                                                                  FactorOne(
+                                                                                    FactorNumber(
+                                                                                     3
+                                                                                    ) [FactorNumber]
+                                                                                  ) [FactorOne]
+                                                                                ) [Term]
+                                                                              ) [TermOne]
+                                                                            ) [NoMinusExpr]
+                                                                          ) [FactorNewExpr]
+                                                                        ) [FactorNew]
+                                                                      ) [FactorOne]
+                                                                    ) [Term]
+                                                                  ) [TermOne]
+                                                                ) [NoMinusExpr]
+                                                              ) [DesignatorAssign]
+                                                            ) [DesignatorOperation]
+                                                          ) [DesignatorStatements]
+                                                        ) [MatchedStatement]
+                                                      ) [Statements]
+                                                      MatchedStatement(
+                                                        DesignatorStatements(
+                                                          DesignatorOperation(
+                                                            DesignatorAssign(
+                                                              ArrayElemDesignator(
+                                                                DesignatorName(
+                                                                 niz
+                                                                ) [DesignatorName]
+                                                                NoMinusExpr(
+                                                                  TermOne(
+                                                                    Term(
+                                                                      FactorOne(
+                                                                        FactorDesignator(
+                                                                          SingleDesignator(
+                                                                            DesignatorName(
+                                                                             nula
+                                                                            ) [DesignatorName]
+                                                                          ) [SingleDesignator]
+                                                                          NoBracesPars(
+                                                                          ) [NoBracesPars]
+                                                                        ) [FactorDesignator]
+                                                                      ) [FactorOne]
+                                                                    ) [Term]
+                                                                  ) [TermOne]
+                                                                ) [NoMinusExpr]
+                                                              ) [ArrayElemDesignator]
+                                                              Assignop(
+                                                              ) [Assignop]
+                                                              NoMinusExpr(
+                                                                TermOne(
+                                                                  Term(
+                                                                    FactorOne(
+                                                                      FactorDesignator(
+                                                                        SingleDesignator(
+                                                                          DesignatorName(
+                                                                           jedan
+                                                                          ) [DesignatorName]
+                                                                        ) [SingleDesignator]
+                                                                        NoBracesPars(
+                                                                        ) [NoBracesPars]
+                                                                      ) [FactorDesignator]
+                                                                    ) [FactorOne]
+                                                                  ) [Term]
+                                                                ) [TermOne]
+                                                              ) [NoMinusExpr]
+                                                            ) [DesignatorAssign]
+                                                          ) [DesignatorOperation]
+                                                        ) [DesignatorStatements]
+                                                      ) [MatchedStatement]
+                                                    ) [Statements]
+                                                    MatchedStatement(
+                                                      DesignatorStatements(
+                                                        DesignatorOperation(
+                                                          DesignatorAssign(
+                                                            ArrayElemDesignator(
+                                                              DesignatorName(
+                                                               niz
+                                                              ) [DesignatorName]
+                                                              NoMinusExpr(
+                                                                TermOne(
+                                                                  Term(
+                                                                    FactorOne(
+                                                                      FactorNumber(
+                                                                       1
+                                                                      ) [FactorNumber]
+                                                                    ) [FactorOne]
+                                                                  ) [Term]
+                                                                ) [TermOne]
+                                                              ) [NoMinusExpr]
+                                                            ) [ArrayElemDesignator]
+                                                            Assignop(
+                                                            ) [Assignop]
+                                                            NoMinusExpr(
+                                                              TermOne(
+                                                                Term(
+                                                                  FactorOne(
+                                                                    FactorNumber(
+                                                                     2
+                                                                    ) [FactorNumber]
+                                                                  ) [FactorOne]
+                                                                ) [Term]
+                                                              ) [TermOne]
+                                                            ) [NoMinusExpr]
+                                                          ) [DesignatorAssign]
+                                                        ) [DesignatorOperation]
+                                                      ) [DesignatorStatements]
+                                                    ) [MatchedStatement]
+                                                  ) [Statements]
+                                                  MatchedStatement(
+                                                    DesignatorStatements(
+                                                      DesignatorOperation(
+                                                        DesignatorAssign(
+                                                          ArrayElemDesignator(
+                                                            DesignatorName(
+                                                             niz
+                                                            ) [DesignatorName]
+                                                            NoMinusExpr(
+                                                              TermOne(
+                                                                Term(
+                                                                  FactorOne(
+                                                                    FactorDesignator(
+                                                                      ArrayElemDesignator(
+                                                                        DesignatorName(
+                                                                         niz
+                                                                        ) [DesignatorName]
+                                                                        NoMinusExpr(
+                                                                          TermOne(
+                                                                            Term(
+                                                                              FactorOne(
+                                                                                FactorDesignator(
+                                                                                  SingleDesignator(
+                                                                                    DesignatorName(
+                                                                                     jedan
+                                                                                    ) [DesignatorName]
+                                                                                  ) [SingleDesignator]
+                                                                                  NoBracesPars(
+                                                                                  ) [NoBracesPars]
+                                                                                ) [FactorDesignator]
+                                                                              ) [FactorOne]
+                                                                            ) [Term]
+                                                                          ) [TermOne]
+                                                                        ) [NoMinusExpr]
+                                                                      ) [ArrayElemDesignator]
+                                                                      NoBracesPars(
+                                                                      ) [NoBracesPars]
+                                                                    ) [FactorDesignator]
+                                                                  ) [FactorOne]
+                                                                ) [Term]
+                                                              ) [TermOne]
+                                                            ) [NoMinusExpr]
+                                                          ) [ArrayElemDesignator]
+                                                          Assignop(
+                                                          ) [Assignop]
+                                                          NoMinusExpr(
+                                                            TermOne(
+                                                              Term(
+                                                                MultipleFactors(
+                                                                  FactorOne(
+                                                                    FactorDesignator(
+                                                                      ArrayElemDesignator(
+                                                                        DesignatorName(
+                                                                         niz
+                                                                        ) [DesignatorName]
+                                                                        NoMinusExpr(
+                                                                          TermOne(
+                                                                            Term(
+                                                                              FactorOne(
+                                                                                FactorDesignator(
+                                                                                  ArrayElemDesignator(
+                                                                                    DesignatorName(
+                                                                                     niz
+                                                                                    ) [DesignatorName]
+                                                                                    NoMinusExpr(
+                                                                                      TermOne(
+                                                                                        Term(
+                                                                                          FactorOne(
+                                                                                            FactorNumber(
+                                                                                             0
+                                                                                            ) [FactorNumber]
+                                                                                          ) [FactorOne]
+                                                                                        ) [Term]
+                                                                                      ) [TermOne]
+                                                                                    ) [NoMinusExpr]
+                                                                                  ) [ArrayElemDesignator]
+                                                                                  NoBracesPars(
+                                                                                  ) [NoBracesPars]
+                                                                                ) [FactorDesignator]
+                                                                              ) [FactorOne]
+                                                                            ) [Term]
+                                                                          ) [TermOne]
+                                                                        ) [NoMinusExpr]
+                                                                      ) [ArrayElemDesignator]
+                                                                      NoBracesPars(
+                                                                      ) [NoBracesPars]
+                                                                    ) [FactorDesignator]
+                                                                  ) [FactorOne]
+                                                                  Mul(
+                                                                  ) [Mul]
+                                                                  FactorNumber(
+                                                                   3
+                                                                  ) [FactorNumber]
+                                                                ) [MultipleFactors]
+                                                              ) [Term]
+                                                            ) [TermOne]
+                                                          ) [NoMinusExpr]
+                                                        ) [DesignatorAssign]
+                                                      ) [DesignatorOperation]
+                                                    ) [DesignatorStatements]
+                                                  ) [MatchedStatement]
+                                                ) [Statements]
+                                                MatchedStatement(
+                                                  DesignatorStatements(
+                                                    DesignatorOperation(
+                                                      DesignatorAssign(
+                                                        SingleDesignator(
+                                                          DesignatorName(
+                                                           bodovi
+                                                          ) [DesignatorName]
+                                                        ) [SingleDesignator]
+                                                        Assignop(
+                                                        ) [Assignop]
+                                                        NoMinusExpr(
+                                                          TermOne(
+                                                            Term(
+                                                              MultipleFactors(
+                                                                FactorOne(
+                                                                  FactorDesignator(
+                                                                    ArrayElemDesignator(
+                                                                      DesignatorName(
+                                                                       niz
+                                                                      ) [DesignatorName]
+                                                                      NoMinusExpr(
+                                                                        TermOne(
+                                                                          Term(
+                                                                            FactorOne(
+                                                                              FactorNumber(
+                                                                               2
+                                                                              ) [FactorNumber]
+                                                                            ) [FactorOne]
+                                                                          ) [Term]
+                                                                        ) [TermOne]
+                                                                      ) [NoMinusExpr]
+                                                                    ) [ArrayElemDesignator]
+                                                                    NoBracesPars(
+                                                                    ) [NoBracesPars]
+                                                                  ) [FactorDesignator]
+                                                                ) [FactorOne]
+                                                                Div(
+                                                                ) [Div]
+                                                                FactorDesignator(
+                                                                  ArrayElemDesignator(
+                                                                    DesignatorName(
+                                                                     niz
+                                                                    ) [DesignatorName]
+                                                                    NoMinusExpr(
+                                                                      TermOne(
+                                                                        Term(
+                                                                          FactorOne(
+                                                                            FactorNumber(
+                                                                             0
+                                                                            ) [FactorNumber]
+                                                                          ) [FactorOne]
+                                                                        ) [Term]
+                                                                      ) [TermOne]
+                                                                    ) [NoMinusExpr]
+                                                                  ) [ArrayElemDesignator]
+                                                                  NoBracesPars(
+                                                                  ) [NoBracesPars]
+                                                                ) [FactorDesignator]
+                                                              ) [MultipleFactors]
+                                                            ) [Term]
+                                                          ) [TermOne]
+                                                        ) [NoMinusExpr]
+                                                      ) [DesignatorAssign]
+                                                    ) [DesignatorOperation]
+                                                  ) [DesignatorStatements]
+                                                ) [MatchedStatement]
+                                              ) [Statements]
+                                              MatchedStatement(
+                                                PrintStatement(
+                                                  NoMinusExpr(
+                                                    TermOne(
+                                                      Term(
+                                                        FactorOne(
+                                                          FactorDesignator(
+                                                            SingleDesignator(
+                                                              DesignatorName(
+                                                               bodovi
+                                                              ) [DesignatorName]
+                                                            ) [SingleDesignator]
+                                                            NoBracesPars(
+                                                            ) [NoBracesPars]
+                                                          ) [FactorDesignator]
+                                                        ) [FactorOne]
+                                                      ) [Term]
+                                                    ) [TermOne]
+                                                  ) [NoMinusExpr]
+                                                  NoNumbers(
+                                                  ) [NoNumbers]
+                                                ) [PrintStatement]
+                                              ) [MatchedStatement]
+                                            ) [Statements]
+                                            MatchedStatement(
+                                              PrintStatement(
+                                                NoMinusExpr(
+                                                  TermOne(
+                                                    Term(
+                                                      FactorOne(
+                                                        FactorDesignator(
+                                                          ArrayElemDesignator(
+                                                            DesignatorName(
+                                                             niz
+                                                            ) [DesignatorName]
+                                                            NoMinusExpr(
+                                                              TermOne(
+                                                                Term(
+                                                                  FactorOne(
+                                                                    FactorNumber(
+                                                                     2
+                                                                    ) [FactorNumber]
+                                                                  ) [FactorOne]
+                                                                ) [Term]
+                                                              ) [TermOne]
+                                                            ) [NoMinusExpr]
+                                                          ) [ArrayElemDesignator]
+                                                          NoBracesPars(
+                                                          ) [NoBracesPars]
+                                                        ) [FactorDesignator]
+                                                      ) [FactorOne]
+                                                    ) [Term]
+                                                  ) [TermOne]
+                                                ) [NoMinusExpr]
+                                                NoNumbers(
+                                                ) [NoNumbers]
+                                              ) [PrintStatement]
+                                            ) [MatchedStatement]
+                                          ) [Statements]
+                                          MatchedStatement(
+                                            DesignatorStatements(
+                                              DesignatorArray(
+                                                LBracketD1(
+                                                ) [LBracketD1]
+                                                MultipleDesignators(
+                                                  SingleDesignatorN(
+                                                    SingleDesignators(
+                                                      SingleDesignator(
+                                                        DesignatorName(
+                                                         a
+                                                        ) [DesignatorName]
+                                                      ) [SingleDesignator]
+                                                    ) [SingleDesignators]
+                                                  ) [SingleDesignatorN]
+                                                  SingleDesignators(
+                                                    SingleDesignator(
+                                                      DesignatorName(
+                                                       b
+                                                      ) [DesignatorName]
+                                                    ) [SingleDesignator]
+                                                  ) [SingleDesignators]
+                                                ) [MultipleDesignators]
+                                                RBracketD1(
+                                                ) [RBracketD1]
+                                                ArrayDesignator(
+                                                  DesignatorName(
+                                                   niz
+                                                  ) [DesignatorName]
+                                                ) [ArrayDesignator]
+                                              ) [DesignatorArray]
+                                            ) [DesignatorStatements]
+                                          ) [MatchedStatement]
+                                        ) [Statements]
+                                        MatchedStatement(
+                                          PrintStatement(
+                                            NoMinusExpr(
+                                              TermOne(
+                                                Term(
+                                                  FactorOne(
+                                                    FactorDesignator(
+                                                      SingleDesignator(
+                                                        DesignatorName(
+                                                         a
+                                                        ) [DesignatorName]
+                                                      ) [SingleDesignator]
+                                                      NoBracesPars(
+                                                      ) [NoBracesPars]
+                                                    ) [FactorDesignator]
+                                                  ) [FactorOne]
+                                                ) [Term]
+                                              ) [TermOne]
+                                            ) [NoMinusExpr]
+                                            NoNumbers(
+                                            ) [NoNumbers]
+                                          ) [PrintStatement]
+                                        ) [MatchedStatement]
+                                      ) [Statements]
+                                      MatchedStatement(
+                                        PrintStatement(
+                                          NoMinusExpr(
+                                            TermOne(
+                                              Term(
+                                                FactorOne(
+                                                  FactorDesignator(
+                                                    SingleDesignator(
+                                                      DesignatorName(
+                                                       b
+                                                      ) [DesignatorName]
+                                                    ) [SingleDesignator]
+                                                    NoBracesPars(
+                                                    ) [NoBracesPars]
+                                                  ) [FactorDesignator]
+                                                ) [FactorOne]
+                                              ) [Term]
+                                            ) [TermOne]
+                                          ) [NoMinusExpr]
+                                          NoNumbers(
+                                          ) [NoNumbers]
+                                        ) [PrintStatement]
+                                      ) [MatchedStatement]
+                                    ) [Statements]
+                                    MatchedStatement(
+                                      DesignatorStatements(
+                                        DesignatorArray(
+                                          LBracketD1(
+                                          ) [LBracketD1]
+                                          MultipleDesignators(
+                                            MultipleDesignators(
+                                              SingleDesignatorN(
+                                                NoDesignators(
+                                                ) [NoDesignators]
+                                              ) [SingleDesignatorN]
+                                              SingleDesignators(
+                                                SingleDesignator(
+                                                  DesignatorName(
+                                                   a
+                                                  ) [DesignatorName]
+                                                ) [SingleDesignator]
+                                              ) [SingleDesignators]
+                                            ) [MultipleDesignators]
+                                            NoDesignators(
+                                            ) [NoDesignators]
+                                          ) [MultipleDesignators]
+                                          RBracketD1(
+                                          ) [RBracketD1]
+                                          ArrayDesignator(
+                                            DesignatorName(
+                                             niz
+                                            ) [DesignatorName]
+                                          ) [ArrayDesignator]
+                                        ) [DesignatorArray]
+                                      ) [DesignatorStatements]
+                                    ) [MatchedStatement]
+                                  ) [Statements]
+                                  MatchedStatement(
+                                    PrintStatement(
+                                      NoMinusExpr(
+                                        TermOne(
+                                          Term(
+                                            FactorOne(
+                                              FactorDesignator(
+                                                SingleDesignator(
+                                                  DesignatorName(
+                                                   a
+                                                  ) [DesignatorName]
+                                                ) [SingleDesignator]
+                                                NoBracesPars(
+                                                ) [NoBracesPars]
+                                              ) [FactorDesignator]
+                                            ) [FactorOne]
+                                          ) [Term]
+                                        ) [TermOne]
+                                      ) [NoMinusExpr]
+                                      NoNumbers(
+                                      ) [NoNumbers]
+                                    ) [PrintStatement]
+                                  ) [MatchedStatement]
+                                ) [Statements]
+                                MatchedStatement(
+                                  DesignatorStatements(
+                                    DesignatorOperation(
+                                      DesignatorAssign(
+                                        SingleDesignator(
+                                          DesignatorName(
+                                           niz2
+                                          ) [DesignatorName]
+                                        ) [SingleDesignator]
+                                        Assignop(
+                                        ) [Assignop]
+                                        NoMinusExpr(
+                                          TermOne(
+                                            Term(
+                                              FactorOne(
+                                                FactorNew(
+                                                  Type(
+                                                   int
+                                                  ) [Type]
+                                                  FactorNewExpr(
+                                                    NoMinusExpr(
+                                                      TermOne(
+                                                        Term(
+                                                          FactorOne(
+                                                            FactorNumber(
+                                                             2
+                                                            ) [FactorNumber]
+                                                          ) [FactorOne]
+                                                        ) [Term]
+                                                      ) [TermOne]
+                                                    ) [NoMinusExpr]
+                                                  ) [FactorNewExpr]
+                                                ) [FactorNew]
+                                              ) [FactorOne]
+                                            ) [Term]
+                                          ) [TermOne]
+                                        ) [NoMinusExpr]
+                                      ) [DesignatorAssign]
+                                    ) [DesignatorOperation]
+                                  ) [DesignatorStatements]
+                                ) [MatchedStatement]
+                              ) [Statements]
+                              MatchedStatement(
+                                DesignatorStatements(
+                                  DesignatorArray(
+                                    LBracketD1(
+                                    ) [LBracketD1]
+                                    MultipleDesignators(
+                                      MultipleDesignators(
+                                        SingleDesignatorN(
+                                          SingleDesignators(
+                                            ArrayElemDesignator(
+                                              DesignatorName(
+                                               niz2
+                                              ) [DesignatorName]
+                                              NoMinusExpr(
+                                                TermOne(
+                                                  Term(
+                                                    FactorOne(
+                                                      FactorNumber(
+                                                       0
+                                                      ) [FactorNumber]
+                                                    ) [FactorOne]
+                                                  ) [Term]
+                                                ) [TermOne]
+                                              ) [NoMinusExpr]
+                                            ) [ArrayElemDesignator]
+                                          ) [SingleDesignators]
+                                        ) [SingleDesignatorN]
+                                        NoDesignators(
+                                        ) [NoDesignators]
+                                      ) [MultipleDesignators]
+                                      SingleDesignators(
+                                        ArrayElemDesignator(
+                                          DesignatorName(
+                                           niz2
+                                          ) [DesignatorName]
+                                          NoMinusExpr(
+                                            TermOne(
+                                              Term(
+                                                FactorOne(
+                                                  FactorDesignator(
+                                                    ArrayElemDesignator(
+                                                      DesignatorName(
+                                                       niz
+                                                      ) [DesignatorName]
+                                                      NoMinusExpr(
+                                                        TermOne(
+                                                          Term(
+                                                            FactorOne(
+                                                              FactorDesignator(
+                                                                SingleDesignator(
+                                                                  DesignatorName(
+                                                                   nula
+                                                                  ) [DesignatorName]
+                                                                ) [SingleDesignator]
+                                                                NoBracesPars(
+                                                                ) [NoBracesPars]
+                                                              ) [FactorDesignator]
+                                                            ) [FactorOne]
+                                                          ) [Term]
+                                                        ) [TermOne]
+                                                      ) [NoMinusExpr]
+                                                    ) [ArrayElemDesignator]
+                                                    NoBracesPars(
+                                                    ) [NoBracesPars]
+                                                  ) [FactorDesignator]
+                                                ) [FactorOne]
+                                              ) [Term]
+                                            ) [TermOne]
+                                          ) [NoMinusExpr]
+                                        ) [ArrayElemDesignator]
+                                      ) [SingleDesignators]
+                                    ) [MultipleDesignators]
+                                    RBracketD1(
+                                    ) [RBracketD1]
+                                    ArrayDesignator(
+                                      DesignatorName(
+                                       niz
+                                      ) [DesignatorName]
+                                    ) [ArrayDesignator]
+                                  ) [DesignatorArray]
+                                ) [DesignatorStatements]
+                              ) [MatchedStatement]
+                            ) [Statements]
+                            MatchedStatement(
+                              PrintStatement(
+                                NoMinusExpr(
+                                  TermOne(
+                                    Term(
+                                      FactorOne(
+                                        FactorDesignator(
+                                          ArrayElemDesignator(
+                                            DesignatorName(
+                                             niz2
+                                            ) [DesignatorName]
+                                            NoMinusExpr(
+                                              TermOne(
+                                                Term(
+                                                  FactorOne(
+                                                    FactorNumber(
+                                                     0
+                                                    ) [FactorNumber]
+                                                  ) [FactorOne]
+                                                ) [Term]
+                                              ) [TermOne]
+                                            ) [NoMinusExpr]
+                                          ) [ArrayElemDesignator]
+                                          NoBracesPars(
+                                          ) [NoBracesPars]
+                                        ) [FactorDesignator]
+                                      ) [FactorOne]
+                                    ) [Term]
+                                  ) [TermOne]
+                                ) [NoMinusExpr]
+                                NoNumbers(
+                                ) [NoNumbers]
+                              ) [PrintStatement]
+                            ) [MatchedStatement]
+                          ) [Statements]
+                          MatchedStatement(
+                            PrintStatement(
+                              NoMinusExpr(
+                                TermOne(
+                                  Term(
+                                    FactorOne(
+                                      FactorDesignator(
+                                        ArrayElemDesignator(
+                                          DesignatorName(
+                                           niz2
+                                          ) [DesignatorName]
+                                          NoMinusExpr(
+                                            TermOne(
+                                              Term(
+                                                FactorOne(
+                                                  FactorNumber(
+                                                   1
+                                                  ) [FactorNumber]
+                                                ) [FactorOne]
+                                              ) [Term]
+                                            ) [TermOne]
+                                          ) [NoMinusExpr]
+                                        ) [ArrayElemDesignator]
+                                        NoBracesPars(
+                                        ) [NoBracesPars]
+                                      ) [FactorDesignator]
+                                    ) [FactorOne]
+                                  ) [Term]
+                                ) [TermOne]
+                              ) [NoMinusExpr]
+                              NoNumbers(
+                              ) [NoNumbers]
+                            ) [PrintStatement]
+                          ) [MatchedStatement]
+                        ) [Statements]
+                        MatchedStatement(
+                          DesignatorStatements(
+                            DesignatorOperation(
+                              DesignatorAssign(
+                                SingleDesignator(
+                                  DesignatorName(
+                                   nizch
+                                  ) [DesignatorName]
+                                ) [SingleDesignator]
+                                Assignop(
+                                ) [Assignop]
+                                NoMinusExpr(
+                                  TermOne(
+                                    Term(
+                                      FactorOne(
+                                        FactorNew(
+                                          Type(
+                                           char
+                                          ) [Type]
+                                          FactorNewExpr(
+                                            NoMinusExpr(
+                                              TermOne(
+                                                Term(
+                                                  FactorOne(
+                                                    FactorNumber(
+                                                     3
+                                                    ) [FactorNumber]
+                                                  ) [FactorOne]
+                                                ) [Term]
+                                              ) [TermOne]
+                                            ) [NoMinusExpr]
+                                          ) [FactorNewExpr]
+                                        ) [FactorNew]
+                                      ) [FactorOne]
+                                    ) [Term]
+                                  ) [TermOne]
+                                ) [NoMinusExpr]
+                              ) [DesignatorAssign]
+                            ) [DesignatorOperation]
+                          ) [DesignatorStatements]
+                        ) [MatchedStatement]
+                      ) [Statements]
+                      MatchedStatement(
+                        DesignatorStatements(
+                          DesignatorOperation(
+                            DesignatorAssign(
+                              ArrayElemDesignator(
+                                DesignatorName(
+                                 nizch
+                                ) [DesignatorName]
+                                NoMinusExpr(
+                                  TermOne(
+                                    Term(
+                                      FactorOne(
+                                        FactorNumber(
+                                         0
+                                        ) [FactorNumber]
+                                      ) [FactorOne]
+                                    ) [Term]
+                                  ) [TermOne]
+                                ) [NoMinusExpr]
+                              ) [ArrayElemDesignator]
+                              Assignop(
+                              ) [Assignop]
+                              NoMinusExpr(
+                                TermOne(
+                                  Term(
+                                    FactorOne(
+                                      FactorChar(
+                                       a
+                                      ) [FactorChar]
+                                    ) [FactorOne]
+                                  ) [Term]
+                                ) [TermOne]
+                              ) [NoMinusExpr]
+                            ) [DesignatorAssign]
+                          ) [DesignatorOperation]
+                        ) [DesignatorStatements]
+                      ) [MatchedStatement]
+                    ) [Statements]
+                    MatchedStatement(
+                      DesignatorStatements(
+                        DesignatorOperation(
+                          DesignatorAssign(
+                            ArrayElemDesignator(
+                              DesignatorName(
+                               nizch
+                              ) [DesignatorName]
+                              NoMinusExpr(
+                                TermOne(
+                                  Term(
+                                    FactorOne(
+                                      FactorDesignator(
+                                        SingleDesignator(
+                                          DesignatorName(
+                                           jedan
+                                          ) [DesignatorName]
+                                        ) [SingleDesignator]
+                                        NoBracesPars(
+                                        ) [NoBracesPars]
+                                      ) [FactorDesignator]
+                                    ) [FactorOne]
+                                  ) [Term]
+                                ) [TermOne]
+                              ) [NoMinusExpr]
+                            ) [ArrayElemDesignator]
+                            Assignop(
+                            ) [Assignop]
+                            NoMinusExpr(
+                              TermOne(
+                                Term(
+                                  FactorOne(
+                                    FactorChar(
+                                     b
+                                    ) [FactorChar]
+                                  ) [FactorOne]
+                                ) [Term]
+                              ) [TermOne]
+                            ) [NoMinusExpr]
+                          ) [DesignatorAssign]
+                        ) [DesignatorOperation]
+                      ) [DesignatorStatements]
+                    ) [MatchedStatement]
+                  ) [Statements]
+                  MatchedStatement(
+                    DesignatorStatements(
+                      DesignatorOperation(
+                        DesignatorAssign(
+                          ArrayElemDesignator(
+                            DesignatorName(
+                             nizch
+                            ) [DesignatorName]
+                            NoMinusExpr(
+                              MultipleTerms(
+                                TermOne(
+                                  Term(
+                                    FactorOne(
+                                      FactorDesignator(
+                                        SingleDesignator(
+                                          DesignatorName(
+                                           pet
+                                          ) [DesignatorName]
+                                        ) [SingleDesignator]
+                                        NoBracesPars(
+                                        ) [NoBracesPars]
+                                      ) [FactorDesignator]
+                                    ) [FactorOne]
+                                  ) [Term]
+                                ) [TermOne]
+                                Sub(
+                                ) [Sub]
+                                Term(
+                                  FactorOne(
+                                    FactorNumber(
+                                     3
+                                    ) [FactorNumber]
+                                  ) [FactorOne]
+                                ) [Term]
+                              ) [MultipleTerms]
+                            ) [NoMinusExpr]
+                          ) [ArrayElemDesignator]
+                          Assignop(
+                          ) [Assignop]
+                          NoMinusExpr(
+                            TermOne(
+                              Term(
+                                FactorOne(
+                                  FactorChar(
+                                   c
+                                  ) [FactorChar]
+                                ) [FactorOne]
+                              ) [Term]
+                            ) [TermOne]
+                          ) [NoMinusExpr]
+                        ) [DesignatorAssign]
+                      ) [DesignatorOperation]
+                    ) [DesignatorStatements]
+                  ) [MatchedStatement]
+                ) [Statements]
+                MatchedStatement(
+                  PrintStatement(
+                    NoMinusExpr(
+                      TermOne(
+                        Term(
+                          FactorOne(
+                            FactorDesignator(
+                              ArrayElemDesignator(
+                                DesignatorName(
+                                 nizch
+                                ) [DesignatorName]
+                                NoMinusExpr(
+                                  TermOne(
+                                    Term(
+                                      FactorOne(
+                                        FactorNumber(
+                                         1
+                                        ) [FactorNumber]
+                                      ) [FactorOne]
+                                    ) [Term]
+                                  ) [TermOne]
+                                ) [NoMinusExpr]
+                              ) [ArrayElemDesignator]
+                              NoBracesPars(
+                              ) [NoBracesPars]
+                            ) [FactorDesignator]
+                          ) [FactorOne]
+                        ) [Term]
+                      ) [TermOne]
+                    ) [NoMinusExpr]
+                    NoNumbers(
+                    ) [NoNumbers]
+                  ) [PrintStatement]
+                ) [MatchedStatement]
+              ) [Statements]
+              MatchedStatement(
+                PrintStatement(
+                  NoMinusExpr(
+                    TermOne(
+                      Term(
+                        FactorOne(
+                          FactorDesignator(
+                            ArrayElemDesignator(
+                              DesignatorName(
+                               nizch
+                              ) [DesignatorName]
+                              NoMinusExpr(
+                                TermOne(
+                                  Term(
+                                    MultipleFactors(
+                                      FactorOne(
+                                        FactorDesignator(
+                                          SingleDesignator(
+                                            DesignatorName(
+                                             jedan
+                                            ) [DesignatorName]
+                                          ) [SingleDesignator]
+                                          NoBracesPars(
+                                          ) [NoBracesPars]
+                                        ) [FactorDesignator]
+                                      ) [FactorOne]
+                                      Mul(
+                                      ) [Mul]
+                                      FactorNumber(
+                                       2
+                                      ) [FactorNumber]
+                                    ) [MultipleFactors]
+                                  ) [Term]
+                                ) [TermOne]
+                              ) [NoMinusExpr]
+                            ) [ArrayElemDesignator]
+                            NoBracesPars(
+                            ) [NoBracesPars]
+                          ) [FactorDesignator]
+                        ) [FactorOne]
+                      ) [Term]
+                    ) [TermOne]
+                  ) [NoMinusExpr]
+                  NoNumbers(
+                  ) [NoNumbers]
+                ) [PrintStatement]
+              ) [MatchedStatement]
+            ) [Statements]
+            MatchedStatement(
+              ReadStatement(
+                SingleDesignator(
+                  DesignatorName(
+                   bodovi
+                  ) [DesignatorName]
+                ) [SingleDesignator]
+              ) [ReadStatement]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            DesignatorStatements(
+              DesignatorOperation(
+                DesignatorAssign(
+                  SingleDesignator(
+                    DesignatorName(
+                     bodovi
+                    ) [DesignatorName]
+                  ) [SingleDesignator]
+                  Assignop(
+                  ) [Assignop]
+                  MinusExpr(
+                    MultipleTerms(
+                      MultipleTerms(
+                        TermOne(
+                          Term(
+                            FactorOne(
+                              FactorDesignator(
+                                SingleDesignator(
+                                  DesignatorName(
+                                   bodovi
+                                  ) [DesignatorName]
+                                ) [SingleDesignator]
+                                NoBracesPars(
+                                ) [NoBracesPars]
+                              ) [FactorDesignator]
+                            ) [FactorOne]
+                          ) [Term]
+                        ) [TermOne]
+                        Add(
+                        ) [Add]
+                        Term(
+                          MultipleFactors(
+                            FactorOne(
+                              FactorExpr(
+                                NoMinusExpr(
+                                  MultipleTerms(
+                                    TermOne(
+                                      Term(
+                                        MultipleFactors(
+                                          MultipleFactors(
+                                            FactorOne(
+                                              FactorDesignator(
+                                                SingleDesignator(
+                                                  DesignatorName(
+                                                   pet
+                                                  ) [DesignatorName]
+                                                ) [SingleDesignator]
+                                                NoBracesPars(
+                                                ) [NoBracesPars]
+                                              ) [FactorDesignator]
+                                            ) [FactorOne]
+                                            Mul(
+                                            ) [Mul]
+                                            FactorDesignator(
+                                              SingleDesignator(
+                                                DesignatorName(
+                                                 a
+                                                ) [DesignatorName]
+                                              ) [SingleDesignator]
+                                              NoBracesPars(
+                                              ) [NoBracesPars]
+                                            ) [FactorDesignator]
+                                          ) [MultipleFactors]
+                                          Div(
+                                          ) [Div]
+                                          FactorNumber(
+                                           2
+                                          ) [FactorNumber]
+                                        ) [MultipleFactors]
+                                      ) [Term]
+                                    ) [TermOne]
+                                    Sub(
+                                    ) [Sub]
+                                    Term(
+                                      FactorOne(
+                                        FactorDesignator(
+                                          SingleDesignator(
+                                            DesignatorName(
+                                             jedan
+                                            ) [DesignatorName]
+                                          ) [SingleDesignator]
+                                          NoBracesPars(
+                                          ) [NoBracesPars]
+                                        ) [FactorDesignator]
+                                      ) [FactorOne]
+                                    ) [Term]
+                                  ) [MultipleTerms]
+                                ) [NoMinusExpr]
+                              ) [FactorExpr]
+                            ) [FactorOne]
+                            Mul(
+                            ) [Mul]
+                            FactorDesignator(
+                              SingleDesignator(
+                                DesignatorName(
+                                 bodovi
+                                ) [DesignatorName]
+                              ) [SingleDesignator]
+                              NoBracesPars(
+                              ) [NoBracesPars]
+                            ) [FactorDesignator]
+                          ) [MultipleFactors]
+                        ) [Term]
+                      ) [MultipleTerms]
+                      Sub(
+                      ) [Sub]
+                      Term(
+                        FactorOne(
+                          FactorExpr(
+                            NoMinusExpr(
+                              MultipleTerms(
+                                MultipleTerms(
+                                  TermOne(
+                                    Term(
+                                      MultipleFactors(
+                                        FactorOne(
+                                          FactorNumber(
+                                           3
+                                          ) [FactorNumber]
+                                        ) [FactorOne]
+                                        Mod(
+                                        ) [Mod]
+                                        FactorNumber(
+                                         2
+                                        ) [FactorNumber]
+                                      ) [MultipleFactors]
+                                    ) [Term]
+                                  ) [TermOne]
+                                  Add(
+                                  ) [Add]
+                                  Term(
+                                    MultipleFactors(
+                                      FactorOne(
+                                        FactorNumber(
+                                         3
+                                        ) [FactorNumber]
+                                      ) [FactorOne]
+                                      Mul(
+                                      ) [Mul]
+                                      FactorNumber(
+                                       2
+                                      ) [FactorNumber]
+                                    ) [MultipleFactors]
+                                  ) [Term]
+                                ) [MultipleTerms]
+                                Sub(
+                                ) [Sub]
+                                Term(
+                                  FactorOne(
+                                    FactorNumber(
+                                     3
+                                    ) [FactorNumber]
+                                  ) [FactorOne]
+                                ) [Term]
+                              ) [MultipleTerms]
+                            ) [NoMinusExpr]
+                          ) [FactorExpr]
+                        ) [FactorOne]
+                      ) [Term]
+                    ) [MultipleTerms]
+                  ) [MinusExpr]
+                ) [DesignatorAssign]
+              ) [DesignatorOperation]
+            ) [DesignatorStatements]
+          ) [MatchedStatement]
+        ) [Statements]
+        MatchedStatement(
+          PrintStatement(
+            NoMinusExpr(
+              TermOne(
+                Term(
+                  FactorOne(
+                    FactorDesignator(
+                      SingleDesignator(
+                        DesignatorName(
+                         bodovi
+                        ) [DesignatorName]
+                      ) [SingleDesignator]
+                      NoBracesPars(
+                      ) [NoBracesPars]
+                    ) [FactorDesignator]
+                  ) [FactorOne]
+                ) [Term]
+              ) [TermOne]
+            ) [NoMinusExpr]
+            NoNumbers(
+            ) [NoNumbers]
+          ) [PrintStatement]
+        ) [MatchedStatement]
+      ) [Statements]
+    ) [MethodDecls]
+  ) [MultipleMethodDeclarations]
+) [Program]
+INFO  12:53:11,761 - ===================================
+INFO  12:53:11,763 - Integer constant nula declared in line 5
+INFO  12:53:11,763 - Integer constant jedan declared in line 6
+INFO  12:53:11,763 - Integer constant pet declared in line 7
+INFO  12:53:11,763 - Global array niz declared in line 9
+INFO  12:53:11,765 - Global array niz2 declared in line 9
+INFO  12:53:11,765 - Global variable a declared in line 9
+INFO  12:53:11,765 - Global variable b declared in line 9
+INFO  12:53:11,765 - Global array nizch declared in line 10
+INFO  12:53:11,765 - Method main declared in line 13
+INFO  12:53:11,765 - Local variable bodovi declared in line 14
+INFO  12:53:11,765 - Local variable bt declared in line 15
+INFO  12:53:11,765 - Assign statement found in line 17
+INFO  12:53:11,765 - Increment found in line 18
+INFO  12:53:11,765 - jedan used in line 19
+INFO  12:53:11,765 - Assign statement found in line 19
+INFO  12:53:11,765 - pet used in line 20
+INFO  12:53:11,765 - Assign statement found in line 20
+INFO  12:53:11,765 - Decrement found in line 21
+INFO  12:53:11,765 - 'print' method called in line 22
+INFO  12:53:11,765 - niz used in line 25
+INFO  12:53:11,765 - Assign statement found in line 25
+INFO  12:53:11,765 - niz used in line 26
+INFO  12:53:11,765 - nula used in line 26
+INFO  12:53:11,765 - Accessing array element in line 26
+INFO  12:53:11,765 - jedan used in line 26
+INFO  12:53:11,765 - Assign statement found in line 26
+INFO  12:53:11,765 - niz used in line 27
+INFO  12:53:11,765 - Accessing array element in line 27
+INFO  12:53:11,765 - Assign statement found in line 27
+INFO  12:53:11,765 - niz used in line 28
+INFO  12:53:11,765 - niz used in line 28
+INFO  12:53:11,765 - jedan used in line 28
+INFO  12:53:11,765 - Accessing array element in line 28
+INFO  12:53:11,765 - Accessing array element in line 28
+INFO  12:53:11,765 - niz used in line 28
+INFO  12:53:11,765 - niz used in line 28
+INFO  12:53:11,765 - Accessing array element in line 28
+INFO  12:53:11,766 - Accessing array element in line 28
+INFO  12:53:11,766 - Assign statement found in line 28
+INFO  12:53:11,766 - niz used in line 29
+INFO  12:53:11,766 - Accessing array element in line 29
+INFO  12:53:11,766 - niz used in line 29
+INFO  12:53:11,766 - Accessing array element in line 29
+INFO  12:53:11,766 - Assign statement found in line 29
+INFO  12:53:11,766 - 'print' method called in line 30
+INFO  12:53:11,766 - niz used in line 31
+INFO  12:53:11,766 - Accessing array element in line 31
+INFO  12:53:11,766 - 'print' method called in line 31
+INFO  12:53:11,766 - a used in line 34
+INFO  12:53:11,766 - b used in line 34
+INFO  12:53:11,766 - niz used in line 34
+INFO  12:53:11,766 - Array assignment found in line 34
+INFO  12:53:11,766 - Array assignment found in line 34
+INFO  12:53:11,766 - a used in line 35
+INFO  12:53:11,766 - 'print' method called in line 35
+INFO  12:53:11,766 - b used in line 36
+INFO  12:53:11,766 - 'print' method called in line 36
+INFO  12:53:11,766 - a used in line 39
+INFO  12:53:11,766 - niz used in line 39
+INFO  12:53:11,766 - Array assignment found in line 39
+INFO  12:53:11,766 - Array assignment found in line 39
+INFO  12:53:11,766 - Array assignment found in line 39
+INFO  12:53:11,766 - a used in line 40
+INFO  12:53:11,766 - 'print' method called in line 40
+INFO  12:53:11,766 - niz2 used in line 42
+INFO  12:53:11,766 - Assign statement found in line 42
+INFO  12:53:11,766 - niz2 used in line 43
+INFO  12:53:11,766 - Accessing array element in line 43
+INFO  12:53:11,766 - niz2 used in line 43
+INFO  12:53:11,766 - niz used in line 43
+INFO  12:53:11,766 - nula used in line 43
+INFO  12:53:11,766 - Accessing array element in line 43
+INFO  12:53:11,766 - Accessing array element in line 43
+INFO  12:53:11,766 - niz used in line 43
+INFO  12:53:11,766 - Array assignment found in line 43
+INFO  12:53:11,766 - Array assignment found in line 43
+INFO  12:53:11,766 - Array assignment found in line 43
+INFO  12:53:11,766 - niz2 used in line 45
+INFO  12:53:11,766 - Accessing array element in line 45
+INFO  12:53:11,766 - 'print' method called in line 45
+INFO  12:53:11,766 - niz2 used in line 46
+INFO  12:53:11,766 - Accessing array element in line 46
+INFO  12:53:11,766 - 'print' method called in line 46
+INFO  12:53:11,766 - nizch used in line 50
+INFO  12:53:11,766 - Assign statement found in line 50
+INFO  12:53:11,766 - nizch used in line 51
+INFO  12:53:11,766 - Accessing array element in line 51
+INFO  12:53:11,766 - Assign statement found in line 51
+INFO  12:53:11,766 - nizch used in line 52
+INFO  12:53:11,766 - jedan used in line 52
+INFO  12:53:11,766 - Accessing array element in line 52
+INFO  12:53:11,766 - Assign statement found in line 52
+INFO  12:53:11,766 - nizch used in line 53
+INFO  12:53:11,767 - pet used in line 53
+INFO  12:53:11,767 - Accessing array element in line 53
+INFO  12:53:11,767 - Assign statement found in line 53
+INFO  12:53:11,767 - nizch used in line 54
+INFO  12:53:11,767 - Accessing array element in line 54
+INFO  12:53:11,767 - 'print' method called in line 54
+INFO  12:53:11,767 - nizch used in line 55
+INFO  12:53:11,767 - jedan used in line 55
+INFO  12:53:11,767 - Accessing array element in line 55
+INFO  12:53:11,767 - 'print' method called in line 55
+INFO  12:53:11,767 - 'read' method called in line 58
+INFO  12:53:11,767 - pet used in line 59
+INFO  12:53:11,767 - a used in line 59
+INFO  12:53:11,767 - jedan used in line 59
+INFO  12:53:11,767 - Assign statement found in line 59
+INFO  12:53:11,767 - 'print' method called in line 60
+INFO  12:53:11,767 - Method main processed in line 13
+INFO  12:53:11,767 - ===================================
+INFO  12:53:11,767 - ===================================
+INFO  12:53:11,767 - Number of declared constants: 3
+INFO  12:53:11,767 - Number of used constants: 38
+INFO  12:53:11,767 - Number of declared global variables: 5
+INFO  12:53:11,767 - Number of used global variables: 32
+INFO  12:53:11,767 - Number of declared local variables: 2
+INFO  12:53:11,767 - Number of used local variables: 15
+INFO  12:53:11,767 - Number of variables: 5
+INFO  12:53:11,767 - ===================================
+INFO  12:53:11,771 - Parsing completed successfully!
